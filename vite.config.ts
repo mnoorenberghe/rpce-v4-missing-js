@@ -9,5 +9,6 @@ import { name, version } from "./package.json";
 Object.assign(manifest, { name, version });
 
 export default defineConfig({
+  build: { minify: false },
   plugins: [react(), chromeExtension({ manifest })],
 });
