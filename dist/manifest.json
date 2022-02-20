@@ -1,1 +1,8 @@
-{"manifest_version":3,"action":{"default_popup":"index.html"},"name":"Browser Extension","version":"0.0.1","permissions":[]}
+{
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "name": "browser-extension",
+  "version": "0.0.1"
+}
